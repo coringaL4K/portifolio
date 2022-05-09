@@ -366,9 +366,10 @@ footer{
         height: 39vh;
     }
     /* menu mobile */
-    body{
-        overflow-x: hidden;
-    }
+    html, body {
+        position:relative;
+        overflow-x:hidden;
+      }
     nav{
         background: #23232ea8;
     }
